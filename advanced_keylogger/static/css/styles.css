@@ -1,0 +1,55 @@
+body {
+    background-color: #000505f7;
+    color: #130000;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    padding: 20px; /* Adjust padding to reduce space */
+}
+
+h1, h2 {
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 10px; /* Adjust bottom margin */
+}
+
+#log {
+     /* Set a max height if needed */
+    overflow-y: auto;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#screenshots img {
+    display: inline-block;
+    max-width: 2000px; /* Maximum width of the image */
+    max-height: 1500px; /* Maximum height of the image */
+    margin: 5px; /* Reduce margin to reduce space between images */
+    object-fit: cover; /* Ensure the image covers the specified dimensions */
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px; /* Adjust margin to reduce space */
+}
+
+.border {
+    border: 10px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.my-4 {
+    margin: 20px 0; /* Adjust margin to reduce space */
+}
+
+.p-3 {
+    padding: 10px; /* Adjust padding to reduce space */
+}
+
+.mb-4 {
+    margin-bottom: 20px; /* Adjust margin to reduce space */
+}
