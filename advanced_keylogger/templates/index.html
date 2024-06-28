@@ -2,18 +2,35 @@
 <html>
 <head>
     <title>Keylogger Dashboard</title>
+    <!-- The title of the webpage displayed on the browser tab -->
+
+    <!-- Link to the external CSS stylesheet for styling the page -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <!-- Including the Socket.IO library for real-time communication -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+
+    <!-- Including the jQuery library for easier DOM manipulation -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="container">
+        <!-- Container for the dashboard content -->
+
         <h1>Real-time Keylogger Dashboard</h1>
+        <!-- Main heading of the dashboard -->
+
         <h2>Screenshots</h2>
+        <!-- Subheading for the screenshots section -->
+
+        <!-- Button to fetch screenshots -->
         <button id="fetch-screenshots" class="btn btn-primary">Fetch Screenshots</button>
+
+        <!-- Div to display the fetched screenshots -->
         <div id="screenshots" class="border p-3"></div>
     </div>
 
+    <!-- Link to the external JavaScript file for additional functionality -->
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>
